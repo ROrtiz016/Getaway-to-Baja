@@ -1,0 +1,28 @@
+.Foot{
+  height: 75px;
+  width: 100%;
+  background: linear-gradient(90deg, rgb(255, 235, 59), #FAD7A0, aquamarine);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.follow{
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.icons{
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.icon1{
+  height: 34px;
+  margin-left: 5px;
+  margin-right: 5px;
+}

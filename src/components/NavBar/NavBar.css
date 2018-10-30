@@ -1,0 +1,65 @@
+.Logo{
+  height: 80px;
+}
+
+.Nav{
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between
+}
+
+.QueryBtn{
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  margin: 15px;
+  margin-top: 25px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.QueryBtn>div{
+  height: 2px;
+  width: 60%;
+  background: #FF1493;
+}
+
+.mobile-nav{
+  background-color: rgba(255, 245, 157, 0.582);
+  position: absolute;
+  top: 70px;
+  color:black;
+  width: 100%;
+  height: 0px;
+  overflow: hidden;
+  transition: .4s height ease-out;
+  z-index: 1000;
+}
+
+.show-nav{
+  height: 80px;
+  z-index: 1000;
+}
+
+.navBtn{
+  font-size: 28px;
+  font-family: 'Shadows Into Light', cursive;
+  margin-top: 24px;
+}
+
+.navBtn:hover{
+  color: white;
+}
+
+.mobile-nav-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly
+}

@@ -1,0 +1,67 @@
+.barra{
+  height: 30px;
+  width: 100%;
+  background: rgb(243, 156, 18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.Welcome{
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.texto{
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.text1{
+  font-family: 'Ubuntu', sans-serif;
+  margin: 18px;
+  text-align: center;
+}
+
+.vid{
+  width: 95%;
+  border-radius: 8px;
+}
+
+.tours{
+  height: 30px;
+  width: 100%;
+  background: greenyellow;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  font-size: 22px;
+  padding-top: 5px;
+}
+
+.TourPacks{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.tourImg{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%
+}
+
+.packs{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.packsBox{
+  margin-left: 12px;
+}
