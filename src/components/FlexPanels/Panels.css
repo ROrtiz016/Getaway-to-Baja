@@ -10,12 +10,9 @@ height: 90vh;
 width: 75%;
 margin-top: 80px;
 margin: auto;
-}
-
-p{
-  font-size: 40px;
-  text-shadow: 1px 1px 1px black;
-  color: white;
+font-size: 40px;
+text-shadow: 1px 1px 1px black;
+color: white;
 }
 
 .panel{
@@ -38,7 +35,7 @@ p{
 }
 
 .panel:hover, .side:hover{
-  width: 40%;
+  width: 55%;
   transition: 1s ease-in-out;
 }
 

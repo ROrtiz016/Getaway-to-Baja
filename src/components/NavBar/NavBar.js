@@ -28,22 +28,18 @@ class NavBar extends Component{
           <div className="mobile-nav-content">
           <div>
             <h3 className='navBtn'>Explore</h3>
-              <p className='subTab'>WHERE TO GO</p>
           </div>
 
           <div>
             <h3 className='navBtn'>Destination</h3>
-            <p className='subTab'>START YOUR <br/>ADVENTURE</p>
           </div>
 
           <div>
             <h3 className='navBtn'>Tours</h3>
-            <p className='subTab'>SHARE YOUR <br/>STORIES</p>
           </div>
 
           <div>
             <h3 className='navBtn'>Contact</h3>
-            <p className='subTab'>LET US HELP YOU</p>
           </div>
 
           </div>

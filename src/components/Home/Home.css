@@ -5,7 +5,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
 }
 
 .Welcome{
@@ -107,4 +106,34 @@
   background: rgba(0, 110, 255, 0.863);
   transition: 1s;
   cursor: pointer;
+}
+
+.baja-text{
+  color: black;
+}
+
+.back{
+  background: white;
+  padding-top: 50px;
+}
+
+.window{
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+  background: rgba(64, 189, 247, 0.158);
+}
+
+.whale{
+  position: fixed;
+  top: -120px;
+  z-index: -1;
+  height: 135vh;
+}
+
+.journey{
+  text-align: center;
+  padding: 50px;
+  font-size: 42px;
+
 }

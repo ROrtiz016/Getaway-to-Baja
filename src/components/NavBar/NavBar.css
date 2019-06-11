@@ -55,7 +55,7 @@
 
 .navBtn{
   font-size: 28px;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Amatic SC', cursive;
   margin-top: 24px;
   color: white;
   text-shadow: 1px 1px rgb(78, 78, 78)
@@ -73,12 +73,6 @@
   align-items: center;
   justify-content: space-evenly;
   padding-left: 60px;
-}
-
-.subTab{
-  color: rgb(57, 201, 165);
-  font-family: 'Raleway', sans-serif;
-  font-size: 12px;
 }
 
 .Find{ 
