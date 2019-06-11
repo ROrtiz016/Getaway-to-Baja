@@ -1,8 +1,14 @@
 import React, { Component } from 'react'
-import LaPaz from '../../Video/LaPaz.mp4'
-import Caseta from '../../img/Caseta.jpeg'
-import Ballenas from '../../img/Ballenas-5.jpeg'
-import TBallena from '../../img/TiburonBallena-3.jpeg'
+// import LaPaz from '../../img/Malecon2.jpg'
+// import Ceviche from '../../img/Ceviche.jpeg'
+// import Balandra from '../../img/balandraBeach.jpg'
+// import Adventure from '../../img/adventure.jpg'
+// import Zipline from '../../img/zipline-pn.jpg'
+import {Link} from 'react-router-dom'
+import NavBar from '../NavBar/NavBar'
+import Panels from '../FlexPanels/Panels'
+import Tours from '../Tours/Tours'
+import Footer from '../Footer/Footer'
 import './Home.css'
 
 class Home extends Component {
@@ -10,39 +16,23 @@ class Home extends Component {
   render() {
     return (
       <div>
+
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"></link>
+        <NavBar />
+
+        <div className='presentation'>
+          <p className='title-text'>Experience Paradise</p>
+          <Link to='Baja' className='Link'><p className='tours-btn' >View Destination</p></Link>
+        </div>
+
         <div className='barra'>
-          <h2 className='Welcome'>Welcome to your next Tour!</h2>
+          <h2 className='Welcome'>Welcome to your next Adventure!</h2>
         </div>
 
-        <div className='texto'>
-          <h3 className='text1'>
-            Baja California Sur is a paradise <br /> yet to be explored.
-          </h3>
-
-          <video src={LaPaz} className='vid' autoPlay></video>
-        </div>
-
-        <div className='tours'>
-          <h2>TOURS</h2>
-        </div>
-
-        <div className='TourPacks'>
-          <div className='packsBox'>
-            <img src={Caseta} alt=""  className='tourImg'/>
-            <p className='packs'>Damiana</p>
-          </div>
-
-          <div className='packsBox'>
-            <img src={Ballenas} alt=""  className='tourImg'/>
-            <p className='packs'>El Gigante</p>
-          </div>
-
-          <div className='packsBox'>
-            <img src={TBallena} alt=""  className='tourImg'/>
-            <p className='packs'></p>
-          </div>
-
-        </div>
+        <Tours/>
+        <Panels />
+      
+        <Footer />
       </div>
     )
   }

@@ -1,12 +1,17 @@
 .Logo{
-  height: 80px;
+  height: 90px;
+  margin-left: 300px;
 }
 
 .Nav{
   height: 90px;
   width: 100%;
   display: flex;
-  justify-content: space-between
+  justify-content: flex-start;
+  position: fixed;
+  top: 0%;
+  z-index: 1000;
+  background: rgba(83, 82, 82, 0.274);
 }
 
 .QueryBtn{
@@ -35,7 +40,7 @@
   background-color: rgba(255, 245, 157, 0.582);
   position: absolute;
   top: 70px;
-  color:black;
+  color:whitesmoke;
   width: 100%;
   height: 0px;
   overflow: hidden;
@@ -52,14 +57,43 @@
   font-size: 28px;
   font-family: 'Shadows Into Light', cursive;
   margin-top: 24px;
+  color: white;
+  text-shadow: 1px 1px rgb(78, 78, 78)
 }
 
 .navBtn:hover{
-  color: white;
+  color: rebeccapurple;
+  cursor: pointer;
 }
 
 .mobile-nav-content{
+  width: 700px;
+  height: 80px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly
+  justify-content: space-evenly;
+  padding-left: 60px;
+}
+
+.subTab{
+  color: rgb(57, 201, 165);
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+}
+
+.Find{ 
+  font-family: 'Raleway', sans-serif;
+  color: rgb(57, 201, 165);
+  font-weight: 700;
+  padding-top: 5px;
+}
+
+.media{
+  display: flex;
+  margin-top: 40px;
+}
+
+.Smedia{
+  height: 24px;
+  margin-left: 4px;
 }

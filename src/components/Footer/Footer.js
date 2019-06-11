@@ -18,7 +18,9 @@ class Footer extends Component {
             <img src="https://diylogodesigns.com/wp-content/uploads/2016/04/whatsapp-logo-PNG-Transparent-768x768.png" alt="WhatsApp" className='icon1' /></a>
 
           <a href="https://www.youtube.com/channel/UCC4v6ElEgqIbfpoRFBP6jIw">
-            <img src="https://icon-icons.com/icons2/1211/PNG/512/1491580651-yumminkysocialmedia28_83061.png" alt="Youtube" className='icons' /></a>
+            <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/YouTube.max-1100x1100.png" alt="Youtube" className='icons' /></a>
+
+            <img src="https://www.stickpng.com/assets/images/5a05b7349cf05203c4b60463.png" alt="" className='Smedia'/>
         </div>
       </div>
     )

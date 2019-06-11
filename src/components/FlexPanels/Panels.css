@@ -1,0 +1,70 @@
+
+*{
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+.panels{
+display: flex;
+height: 90vh;
+width: 75%;
+margin-top: 80px;
+margin: auto;
+}
+
+p{
+  font-size: 40px;
+  text-shadow: 1px 1px 1px black;
+  color: white;
+}
+
+.panel{
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  transition: 1s ease-in-out;
+  height: 85vh;
+  font-family: 'Amatic SC', cursive;
+  font-size: 46px;
+}
+
+.panel-1{
+  width: 20%;
+  background-image: url('../../img/Balandra.jpeg');
+}
+
+.panel:hover, .side:hover{
+  width: 40%;
+  transition: 1s ease-in-out;
+}
+
+.panel-2{
+  width: 20%;
+  background-image: url('../../img/Fogata.jpeg');
+}
+
+.panel-3{
+  width: 20%;
+  background-image: url('../../img/Ballena-2.jpeg');
+}
+
+.panel-4{
+  width: 20%;
+  background-image: url('../../img/Santiago.jpeg');
+}
+
+.panel-5{
+  width: 20%;
+  background-image: url('../../img/Tacos.jpeg');
+}
+
+.center{
+  font-size: 80px;
+  display: inline;
+  margin-top: 40%;
+  margin-bottom: 40%;
+}

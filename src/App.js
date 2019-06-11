@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import { HashRouter, Route, Link, Switch } from 'react-router-dom'
+import { HashRouter, Route, Switch } from 'react-router-dom'
 import './App.css';
-import NavBar from './components/NavBar/NavBar'
-import Carousel from './components/Carousel/Carousel'
-import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home'
+import Baja from './components/Baja/Baja'
 import './reset.css';
 
 
@@ -12,21 +10,21 @@ class App extends Component {
   render() {
     return (
       <HashRouter>
-        <div>
-          <link href="https://fonts.googleapis.com/css?family=Krub|Quicksand|Shadows+Into+Light|Ubuntu" rel="stylesheet"></link>
-
-          <NavBar />
-          <Carousel />
-          <Home />
-          <Footer />
         <Switch>
-          {/* <Route exact path='/' component={Home} /> */}
-        
+          <div>
+            <link href="https://fonts.googleapis.com/css?family=Krub|Quicksand|Shadows+Into+Light|Ubuntu" rel="stylesheet"></link>
+            
+            <Route path='/' exact component={Home} />
+            <Route path='/Baja' component={Baja}/>
+
+          </div>
+
         </Switch>
-        </div>
       </HashRouter>
     );
   }
 }
+
+//reorganizar app para hacer funcionar las rutas de los componentes
 
 export default App;
